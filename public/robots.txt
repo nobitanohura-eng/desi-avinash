@@ -1,0 +1,37 @@
+# Robots.txt for Avinash Studio
+# https://avinashstudio.in/
+
+User-agent: *
+Allow: /
+Disallow: /.backup_desi/
+Disallow: /.raw_media/
+
+# AI Search & Large Language Model Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemaps & AI Context
+Sitemap: https://avinashstudio.in/sitemap.xml
+# AI Documentation standard
+# https://avinashstudio.in/llms.txt

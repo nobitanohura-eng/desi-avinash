@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ivory: #F4EBDD;
+    --color-black: #181715;
+    --color-maroon: #641F2B;
+    --color-terracotta: #A9573E;
+    --color-rose: #B96B75;
+    --color-forest: #294437;
+    --color-indigo: #35445B;
+    --color-mustard: #C49A45;
+  }
+
+  body {
+    background-color: #F4EBDD;
+    color: #181715;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle archival scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #EFE6D8;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #641F2B;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A9573E;
+  }
+}
+
+/* Subtle archival paper noise overlay */
+.paper-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: radial-gradient(#181715 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Stamp border styling */
+.stamp-border {
+  border: 1px dashed rgba(100, 31, 43, 0.35);
+  box-shadow: 0 0 0 4px #F4EBDD, 0 0 0 5px rgba(100, 31, 43, 0.2);
+}
+
+.archival-border {
+  border: 1px solid rgba(100, 31, 43, 0.2);
+}
+
+.archival-border-dark {
+  border: 1px solid rgba(244, 235, 221, 0.15);
+}
+
+/* Letterpress text press effect */
+.letterpress {
+  text-shadow: 0 1px 1px rgba(244, 235, 221, 0.8), 0 -1px 1px rgba(24, 23, 21, 0.2);
+}
+
+/* Registration mark styling */
+.registration-mark::before,
+.registration-mark::after {
+  content: '';
+  position: absolute;
+  background: rgba(100, 31, 43, 0.3);
+}
+
+/* Nimbu-Mirchi hanging swing animation — nazar suraksha */
+@keyframes nimbu-swing {
+  0%, 100% { transform: rotate(-3deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-1.5deg); }
+  75% { transform: rotate(1deg); }
+}
+
+.nimbu-mirchi-hang {
+  animation: nimbu-swing 6s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+/* Sticker layer utility — subtle drop shadow for cutout feel */
+.sticker {
+  filter: drop-shadow(1px 2px 3px rgba(24, 23, 21, 0.15));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+}
+
+.sticker:hover {
+  transform: scale(1.08) rotate(-2deg);
+  filter: drop-shadow(2px 4px 8px rgba(24, 23, 21, 0.2));
+}
+
+/* Sticker stamp frame */
+.sticker-stamp {
+  border: 2px dashed rgba(100, 31, 43, 0.3);
+  padding: 3px;
+  background: rgba(244, 235, 221, 0.6);
+}
+
+/* Neo-Vanguard Indian Typography & Screen-print Effects */
+.screenprint-shadow {
+  text-shadow: 2.5px 2.5px 0px #A9573E, 4.5px 4.5px 0px rgba(100, 31, 43, 0.15);
+}
+
+.screenprint-shadow-mustard {
+  text-shadow: 2px 2px 0px #C49A45, 4px 4px 0px rgba(24, 23, 21, 0.3);
+}
+
+.halftone-overlay {
+  background-image: radial-gradient(#181715 0.75px, transparent 0.75px);
+  background-size: 6px 6px;
+  opacity: 0.07;
+}
+
+.type-graphic-card {
+  border: 1px solid rgba(100, 31, 43, 0.25);
+  box-shadow: 0 4px 20px -2px rgba(100, 31, 43, 0.08);
+  position: relative;
+}
+
+.type-graphic-card::before,
+.type-graphic-card::after {
+  content: '⌖';
+  position: absolute;
+  font-family: monospace;
+  font-size: 10px;
+  color: rgba(100, 31, 43, 0.4);
+  pointer-events: none;
+}
+.type-graphic-card::before { top: 3px; left: 4px; }
+.type-graphic-card::after { bottom: 3px; right: 4px; }
+
+/* Smooth motion default */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Avinash Studio",
+  "short_name": "Avinash Studio",
+  "description": "Independent Digital Creative Studio — Modern Craft & Desi Soul",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF5EE",
+  "theme_color": "#FAF5EE",
+  "icons": [
+    {
+      "src": "/assets/brand/monogram-as-stamp.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/monogram-as-stamp.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Avinash Studio — AI Search & Knowledge Index
+
+> Modern Digital Craft with a Desi Soul. Independent digital studio creating websites, UGC short-form content, brand worlds, and AI-powered creative workflows.
+
+## Entity Overview
+- Name: Avinash Studio
+- Founder: Avinash (Creative Technologist, Digital Craftsman, Creative Director)
+- Location: India (Operating Globally)
+- Official Website: https://avinashstudio.in/
+- Official YouTube Channel: https://youtube.com/@aviinash89
+- Direct Phone & WhatsApp: +91 8920636919
+- Contact Endpoint: https://api.web3forms.com/submit (Web3Forms Access Key: f4dc1e02-a136-4902-8b55-403c200e07c4)
+
+## Core Capabilities & Disciplines
+1. **Web Experiences & Interactive Sites**: Bespoke websites, high-performance landing pages, custom web animations, Awwwards-grade motion, and conversion-focused UX architecture built with React, Next.js, and Tailwind CSS.
+2. **UGC & Social Storytelling**: High-retention short-form 9:16 vertical video production, ethnic fashion and apparel showcases (sarees, lehengas, bridal blouses), and creator product hooks engineered for TikTok and Instagram Reels.
+3. **Brand Worlds & Design Systems**: Distinctive visual identities, bespoke Indian neo-vernacular typography, editorial layouts, and cultural art direction.
+4. **AI Creative Systems**: AI-augmented creative pipelines, generative media workflows, smart UI automations, and human-taste-driven AI orchestration.
+
+## Selected Portfolio Builds (Live Deployments)
+- **MomoHaus**: https://momohaus.vercel.app/ — Premium culinary brand and interactive food ordering flagship.
+- **Ananda Restaurant**: https://ananda-restaurant.vercel.app/ — Atmospheric heritage dining website with interactive menus and reservation UX.
+- **Arihant Cabs**: https://arihant-orcin.vercel.app/ — Commercial car rental and fleet platform with instant route calculator and WhatsApp booking flow.
+
+## Creative Philosophy
+"AI without taste is just industrial noise. We bring the taste."
+"देखने में simple. बनाने में नहीं।" (Simple to look at, deeply crafted to build.)
+"Work until the work speaks."
